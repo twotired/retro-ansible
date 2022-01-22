@@ -1,0 +1,59 @@
+- name: enable ssh
+  copy:
+    content: ""
+    dest: "{{ boot_mount_point + '/ssh' }}"
+    force: no
+
+- name: create .ssh dir
+  file:
+    path: "{{ root_mount_point + '/home/pi/.ssh/' }}"
+    state: directory
+    mode: 0700
+
+- name: copy ssh key
+  ansible.builtin.copy:
+    src: ~/.ssh/id_rsa.pub
+    dest: "{{ root_mount_point + '/home/pi/.ssh/authorized_keys' }}"
+    mode: 0600
+
+- name: add acheivements config to retroarch.cfg
+  lineinfile:
+    create: yes
+    path: "{{ root_mount_point + '/opt/retropie/configs/all/retroarch.cfg' }}"
+    regexp: '^{{ item.name }} ='
+    line: '{{ item.name }} = "{{ item.value }}"'
+  with_items:
+    - {name: 'cheevos_username', value: '{{ cheevos_username }}'}
+    - {name: 'cheevos_password', value: '{{ cheevos_password }}'}
+    - {name: 'cheevos_enable', value: '{{ cheevos_enable }}'}
+    - {name: 'cheevos_hardcore_mode_enable', value: '{{ cheevos_hardcore_mode_enable }}'}
+    - {name: 'cheevos_verbose_enable', value: 'true'}
+    - {name: 'cheevos_badges_enable', value: 'true'}
+    - {name: 'cheevos_leaderboards_enable', value: 'true'}
+
+# wifi
+- name: create wifi config
+  copy:
+    content: |
+      country={{ wifi_country }}
+      ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+      update_config=1
+
+      # RETROPIE CONFIG START
+      network={
+          ssid="{{ wifi_ssid }}"
+          psk="{{ wifi_psk }}"
+      }
+      # RETROPIE CONFIG END
+    dest: "{{ boot_mount_point + '/wpa_supplicant.conf' }}"
+    force: no
+
+# https://retropie.org.uk/forum/topic/27367/bonk-s-adventure-audio-issue/4
+# Add "audio_driver = alsathread" to /opt/retropie/configs/pcengine/retroarch.cfg. Bonk audio works fine from there.
+- name: fix pcengine audio settings (for Bonk)
+  lineinfile:
+    create: yes
+    insertbefore: '^#include "/opt/retropie/configs/all/retroarch.cfg"'
+    path: "{{ root_mount_point + '/opt/retropie/configs/pcengine/retroarch.cfg' }}"
+    regexp: '^audio_driver = '
+    line: 'audio_driver = "alsathread"'

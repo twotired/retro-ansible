@@ -1,0 +1,25 @@
+src_dir: ~/retro_games/roms/atarilynx/
+dest_dir: atarilynx/
+roms:
+  - California Games (USA, Europe).zip
+  - Chip's Challenge (USA, Europe).zip
+  - Desert Strike - Return to the Gulf (USA, Europe).zip
+  - Krazy Ace - Miniature Golf (USA, Europe).zip
+  - Kung Food (USA, Europe).zip
+  - Lemmings (USA, Europe).zip
+  - Marlboro Go! (Europe) (Proto).zip
+  - Ms. Pac-Man (USA, Europe).zip
+  - Ninja Gaiden (USA, Europe).zip
+  - Ninja Gaiden III - The Ancient Ship of Doom (USA, Europe).zip
+  - Pac-Land (USA, Europe).zip
+  - Rampart (USA, Europe).zip
+  - RoadBlasters (USA, Europe).zip
+  - Robotron 2084 (USA, Europe).zip
+  - Rygar - Legendary Warrior (USA, Europe).zip
+  - S.T.U.N. Runner (USA, Europe).zip
+  - Shadow of the Beast (USA, Europe).zip
+  - Shanghai (USA, Europe).zip
+  - Switchblade II (USA, Europe).zip
+  - Tournament Cyberball (USA, Europe).zip
+  - Xenophobe (USA, Europe).zip
+  - Xybots (USA, Europe).zip

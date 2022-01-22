@@ -1,0 +1,61 @@
+- name: Create temporary file
+  ansible.builtin.tempfile:
+    state: file
+    suffix: cache
+  register: release_data
+
+- name: list weekly images
+  get_url:
+    url: "{{ weekly_url }}"
+    dest: "{{ release_data.path }}"
+
+- name: read file
+  shell: cat "{{ release_data.path }}"
+  register: json_text
+
+# TODO: do this with handler:
+# https://github.com/ansible/ansible/issues/35611#issuecomment-521220740
+- name: remove temp file
+  file:
+    path: release_data.path
+    state: absent
+
+- name: parse json
+  set_fact:
+    json_data: "{{ json_text.stdout | from_json }}"
+
+# find the entry with name == *(RPI 2/3)$
+# Have to use to_json | from_json hack to avoid error:
+# https://github.com/ansible/ansible/issues/27299
+- name: get info for rpi 3
+  set_fact:
+    image_info: "{{ json_data.os_list | to_json | from_json | json_query(query) | first }}"
+  vars:
+    query: "[?contains(name, '(RPI 2/3)')]"
+
+- name: create data dir
+  file:
+    path: "data/os_images/"
+    state: directory
+
+- name: determine image file name
+  set_fact:
+    image_filename: "{{ image_info.url | basename }}"
+
+- name: check to see if image is already downloaded
+  stat:
+    path: "{{ 'data/os_images/' + image_filename }}"
+#    checksum_algorithm: sha256
+#    get_checksum: yes
+  register: local_image
+
+- name: get sha256 for existing file
+  shell: gzip -dc "{{ 'data/os_images/' + image_filename }}" | sha256sum | cut -d' ' -f1
+  register: local_sha256
+  when: local_image.stat.exists
+
+- name: download image if necessary
+  get_url:
+    url: "{{ image_base_url + image_filename }}"
+    dest: "{{ 'data/os_images/' + image_filename }}"
+  when: not local_image.stat.exists or local_image.stat.size != image_info.image_download_size or image_info.extract_sha256 != local_sha256.stdout

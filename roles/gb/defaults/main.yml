@@ -1,0 +1,18 @@
+src_dir: ~/retro_games/roms/gb/
+dest_dir: gb/
+roms:
+  - Batman - The Video Game (World).7z
+  - Castlevania Adventure, The (USA).7z
+  - Castlevania II - Belmont's Revenge (USA, Europe).7z
+  - Castlevania Legends (USA, Europe).7z
+  - Donkey Kong (World) (Rev A).7z
+  - Donkey Kong Land (USA, Europe).7z
+  - Donkey Kong Land 2 (USA, Europe).7z
+  - Donkey Kong Land III (USA, Europe) (Rev A).7z
+  - Gargoyle's Quest (USA, Europe).7z
+  - Golf (World).7z
+  - Ninja Gaiden Shadow (USA).7z
+  - Operation C (USA).7z
+  - Super Mario Land (World) (Rev A).7z
+  - Super Mario Land 2 - 6 Golden Coins (USA, Europe) (Rev B).7z
+  - Tetris (World) (Rev A).7z

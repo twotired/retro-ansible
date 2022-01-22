@@ -1,0 +1,10 @@
+- name: copy BIOS
+  ansible.builtin.copy:
+    src: "{{ bios_src_dir + '/scph7502.bin' }}"
+    dest: "{{ root_mount_point + '/home/pi/RetroPie/BIOS/' }}"
+
+- name: copy roms
+  ansible.builtin.copy:
+    src: "{{ src_dir + '/' + item }}"
+    dest: "{{ root_mount_point + '/home/pi/RetroPie/roms/' + dest_dir + '/' + item }}"
+  loop: "{{roms}}"

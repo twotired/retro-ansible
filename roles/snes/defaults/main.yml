@@ -1,0 +1,54 @@
+  dest_dir: snes
+  src_dir: ~/retro_games/roms/snes/
+  roms:
+    - ActRaiser (USA).zip
+    - Beavis and Butt-Head (USA).zip
+    - Chrono Trigger (USA).zip
+    - Contra III - The Alien Wars (USA).7z
+    - Donkey Kong Country (USA) (Rev 2).7z
+    - EarthBound (USA).7z
+    - Final Fantasy III (USA) (Rev 1).7z
+    - Final Fantasy III (USA).zip
+    - Final Fantasy II (USA) (Rev 1).7z
+    - Final Fantasy II (USA).zip
+    - Final Fantasy - Mystic Quest (USA).zip
+    - Final Fantasy VI (Japan).zip
+    - Final Fantasy V (Japan).zip
+    - Fire Emblem - Monshou no Nazo (Japan) (Rev 1).zip
+    - F-Zero (USA).7z
+    - Harvest Moon (USA).zip
+    - Kirby's Dream Course (USA).7z
+    - Kirby Super Star (USA).7z
+    - Legend of the Mystical Ninja, The (USA).7z
+    - Legend of Zelda, The - A Link to the Past (USA).7z
+    - Mega Man 7 (USA).7z
+    - Mega Man Soccer (USA).7z
+    - Mega Man X2 (USA).7z
+    - Mega Man X3 (USA).7z
+    - Mega Man X (USA) (Rev 1).7z
+    - NBA Jam (USA).zip
+    - Pilotwings (USA).7z
+    - Secret of Mana (USA).zip
+    - Shadowrun (USA).zip
+    - Star Fox 2.7z
+    - Star Fox (USA) (Super Weekend Competition).7z
+    - Street Fighter II Turbo (USA).7z
+    - Street Fighter II (USA).7z
+    - Super Castlevania IV (USA).7z
+    - Super Double Dragon (USA).zip
+    - Super Ghouls'n Ghosts (USA).7z
+    - Super Mario All-Stars (USA).zip
+    - Super Mario Kart (USA).7z
+    - Super Mario RPG - Legend of the Seven Stars (USA).7z
+    - Super Mario World 2 - Yoshi's Island (USA).zip
+    - Super Mario World (USA).7z
+    - Super Metroid (Japan, USA).7z
+    - Super Punch-Out!! (USA).7z
+    - Super Soccer (USA).7z
+    - Super Star Wars - Return of the Jedi (USA).zip
+    - Super Star Wars - The Empire Strikes Back (USA).zip
+    - Super Star Wars (USA).zip
+    - Super Street Fighter II (USA).7z
+    - Teenage Mutant Ninja Turtles IV - Turtles in Time (USA).zip
+    - Teenage Mutant Ninja Turtles - Tournament Fighters (USA).zip
+    - Tetris Attack (USA) (En,Ja).zip

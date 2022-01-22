@@ -1,0 +1,53 @@
+- name: create data dir
+  file:
+    path: "{{ data_dir }}"
+    state: directory
+
+- name: download patch
+  get_url:
+    url: "{{ patch_url }}"
+    dest: "{{ data_dir }}"
+
+- name: remove old patch files
+  file:
+    path: "{{ data_dir + '/GPi_Case_patch'}}"
+    state: absent
+
+- name: determine patch file name
+  set_fact:
+    patch_filename: "{{ patch_url | basename }}"
+
+- name: unzip patch
+  ansible.builtin.unarchive:
+    src: "{{ data_dir + '/' + patch_filename }}"
+    dest: "{{ data_dir }}"
+
+- name: copy config.txt
+  ansible.builtin.copy:
+    src: "{{ data_dir + '/config.txt' }}"
+    dest: "{{ boot_mount_point }}"
+
+- name: copy dpi24.dtbo
+  ansible.builtin.copy:
+    src: "{{ data_dir + '/GPi_Case_patch/GPi_Case_patch/patch_files/overlays/dpi24.dtbo' }}"
+    dest: "{{ boot_mount_point + '/overlays' }}"
+
+- name: create data dir
+  become: yes
+  file:
+    path: "{{ root_mount_point + '/opt/RetroFlag/' }}"
+    state: directory
+
+- name: copy SafeShutdown.py
+  become: yes
+  ansible.builtin.copy:
+    src: "{{ data_dir + '/SafeShutdown.py' }}"
+    dest: "{{ root_mount_point + '/opt/RetroFlag/' }}"
+    mode: 0755
+
+- name: add SafeShutdown.py to /etc/rc.local
+  become: yes
+  ansible.builtin.lineinfile:
+    path: "{{ root_mount_point + '/etc/rc.local' }}"
+    insertbefore: '^exit 0$'
+    line: 'sudo python3 /opt/RetroFlag/SafeShutdown.py &'

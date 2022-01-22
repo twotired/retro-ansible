@@ -1,0 +1,6 @@
+- name: install PKGs
+  become: yes
+  apt:
+    name: "{{ apts }}"
+    state: latest
+

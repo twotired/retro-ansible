@@ -1,0 +1,10 @@
+- hosts: localhost
+  roles:
+    - atari2600
+    - genesis
+    - mastersystem
+    - nes
+    - snes
+    - pcengine
+    - neogeo
+

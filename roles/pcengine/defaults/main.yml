@@ -1,0 +1,45 @@
+  dest_dir: pcengine
+  src_dir: ~/retro_games/roms/pcengine/
+  bios_src_dir: ~/retro_games/BIOS/
+  roms:
+    - Air Zonk (USA).zip
+    - Aldynes.zip
+    - Alien Crush (USA).zip
+    - Blazing Lazers (USA).zip
+    - Bloody Wolf (USA).zip
+    - Bomberman '93 (USA).zip
+    - Bomberman (USA).zip
+    - Bonk III - Bonk's Big Adventure (USA).zip
+    - Bonk's Adventure (USA).zip
+    - Bonk's Revenge (USA).zip
+    - Cadash (USA).zip
+    - Chew Man Fu (USA).zip
+    - China Warrior (USA).zip
+    - Devil's Crush - Naxat Pinball (USA).zip
+    - Dragon's Curse (USA).zip
+    - Dragon Spirit (USA).zip
+    - Dungeon Explorer (USA).zip
+    - Fantasy Zone (USA).zip
+    - Galaga '90 (USA).zip
+    - Ghouls'N Ghosts.zip
+    - J.J. & Jeff (USA).zip
+    - Keith Courage in Alpha Zones (USA).zip
+    - Legendary Axe II, The (USA).zip
+    - Legendary Axe, The (USA).zip
+    - Magical Chase (USA).zip
+    - Military Madness (USA).zip
+    - Moto Roader (USA).zip
+    - Neutopia II (USA).zip
+    - Neutopia (USA).zip
+    - New Adventure Island (USA).zip
+    - Ninja Spirit (USA).zip
+    - Parasol Stars - The Story of Bubble Bobble III (USA).zip
+    - Power Golf (USA).zip
+    - Psychosis (USA).zip
+    - R-Type (USA).zip
+    - Soldier Blade (USA).zip
+    - Space Harrier (USA).zip
+    - Splatterhouse (USA).zip
+    - Super Star Soldier (USA).zip
+    - Time Cruise (USA).zip
+    - Victory Run (USA).zip

@@ -1,0 +1,40 @@
+src_dir: ~/retro_games/roms/gba/
+dest_dir: gba/
+roms:
+  - Advance Wars (USA) (Rev 1).7z
+  - Advance Wars 2 - Black Hole Rising (USA, Australia).7z
+  - Astro Boy - Omega Factor (USA) (En,Ja,Fr,De,Es,It).7z
+  - Castlevania - Aria of Sorrow (USA).7z
+  - Double Dragon Advance (USA).7z
+  - Drill Dozer (USA).7z
+  - F-Zero - Maximum Velocity (USA, Europe).7z
+  - Final Fantasy Tactics Advance (USA, Australia).7z
+  - Fire Emblem (USA, Australia).7z
+  - Golden Sun (USA, Europe).7z
+  - Golden Sun - The Lost Age (USA, Europe).7z
+  - Gunstar Super Heroes (USA).7z
+  - Harvest Moon - Friends of Mineral Town (USA).7z
+  - Kirby & the Amazing Mirror (USA).7z
+  - Kurukuru Kururin (Europe).7z
+  - Legend of Zelda, The - The Minish Cap (USA).7z
+  - Mario & Luigi - Superstar Saga (USA, Australia).7z
+  - Mario Kart - Super Circuit (USA).7z
+  - Mario vs. Donkey Kong (USA, Australia).7z
+  - Metal Slug Advance (USA).7z
+  - Metroid - Zero Mission (USA).7z
+  - Metroid Fusion (USA, Australia).7z
+  - Pokemon - Emerald Version (USA, Europe).7z
+  - Pokemon - Ruby Version (USA, Europe) (Rev 2).7z
+  - Pokemon - Sapphire Version (USA, Europe) (Rev 2).7z
+  - Sonic Advance (USA) (En,Ja).7z
+  - Sonic Advance 2 (USA) (En,Ja,Fr,De,Es,It).7z
+  - Sonic Advance 3 (USA) (En,Ja,Fr,De,Es,It).7z
+  - Sonic Battle (USA) (En,Ja,Fr,De,Es,It).7z
+  - Sonic Pinball Party (USA) (En,Ja,Fr,De,Es,It).7z
+  - Sonic the Hedgehog - Genesis (USA).7z
+  - Super Mario Advance (USA, Europe).7z
+  - Super Mario Advance 2 - Super Mario World (USA, Australia).7z
+  - Super Mario Advance 3 - Yoshi's Island (USA).7z
+  - Super Mario Advance 4 - Super Mario Bros. 3 (USA, Australia) (Rev 1).7z
+  - Tony Hawk's Pro Skater 2 (USA, Europe).7z
+  - WarioWare, Inc. - Mega Microgame$! (USA).7z
