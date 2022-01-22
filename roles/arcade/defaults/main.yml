@@ -1,9 +1,9 @@
-dest_dir: arcade
 #src_dir: ~/retro_games/roms/arcade/
 src_dir: ~/Downloads/FBNeo 0.2.97.44/roms
+dest_dir: arcade
 roms:
-  - 64street.zip
   - 1942.zip
+  - 64street.zip
   - aerofgt.zip
   - aliensu.zip
   - altbeast.zip
@@ -20,25 +20,26 @@ roms:
   - bublbobl.zip
   - cabal.zip
   - captcommu.zip
-  - dbz.zip
-  - dbz2.zip
-  - ddsom.zip
-  - ddtod.zip
-  - dinou.zip
-  - dstlku.zip
   - centiped.zip
   - commando.zip
   - contra.zip
   - darius.zip
   - darwin.zip
   - dbz.zip
+  - dbz.zip
+  - dbz2.zip
+  - ddragon.zip
   - ddragon2.zip
   - ddragon3.zip
-  - ddragon.zip
+  - ddsom.zip
+  - ddtod.zip
   - defender.zip
+  - dinou.zip
+  - dkong.zip
   - dkong3.zip
   - dkongjr.zip
-  - dkong.zip
+  - dstlk.zip
+  - dstlku.zip
   - ecofghtr.zip
   - ffight.zip
   - frogger.zip
@@ -48,8 +49,8 @@ roms:
   - gauntlet.zip
   - ghostb.zip
   - ghouls.zip
-  - gijoe.zip
   - gigawing.zip
+  - gijoe.zip
   - gnbarich.zip
   - goldnaxe.zip
   - gradius.zip
@@ -70,7 +71,7 @@ roms:
   - mk.zip
   - mk2.zip
   - mk3.zip
-  - mkr4.zip
+  - moomesa.zip
   - mrdo.zip
   - mshu.zip
   - mshvsf.zip
@@ -94,20 +95,33 @@ roms:
   - riotcity.zip
   - rushatck.zip
   - rygar.zip
+  - s1945.zip
+  - sf.zip
   - sf2.zip
+  - sf2ce.zip
+  - sf2hf.zip
+  - sfa.zip
   - sfa2.zip
   - sfa3.zip
-  - sfa.zip
+  - sfiii.zip
   - sfiii2.zip
   - sfiii3.zip
-  - sfiii.zip
+  - sgemf.zip
   - sidepckt.zip
-  - simpsons2p.zip
+  - simpsons.zip
+  - sinistar.zip
+  - slyspy.zip
   - sonicwi.zip
   - ssriders.zip
-  - svcpcb.zip
   - tapper.zip
   - tempest.zip
-  - tmnt2.zip
+  - tgm2.zip
   - tmnt.zip
+  - tmnt2.zip
+  - toki.zip
+  - willow.zip
+  - wof.zip
+  - xmcota.zip
   - xmen.zip
+  - xmvsf.zip
+#  - viostorm.zip
