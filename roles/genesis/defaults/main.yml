@@ -1,0 +1,91 @@
+  dest_dir: genesis
+  src_dir: ~/retro_games/roms/megadrive/
+  bios_src_dir: ~/retro_games/BIOS/
+  roms:
+    - Alex Kidd in the Enchanted Castle (USA).7z
+    - Alien Soldier (Europe).7z
+    - Alisia Dragoon (USA).7z
+    - Altered Beast (USA, Europe).7z
+    - Assault Suits Leynos (J) [!].gen
+    - Batman Forever (World).7z
+    - Batman Returns (World).7z
+    - Batman - Revenge of the Joker (USA).7z
+    - Batman (USA).7z
+    - Beyond Oasis (USA).7z
+    - Castle of Illusion Starring Mickey Mouse (USA, Europe).7z
+    - Castlevania - Bloodlines (USA).7z
+    - Columns (World) (v1.1).7z
+    - Comix Zone (USA).7z
+    - Contra - Hard Corps (USA, Korea).7z
+    - Darius.zip
+    - Dr. Robotnik's Mean Bean Machine (USA).7z
+    - Dynamite Headdy (USA, Europe).7z
+    - Earthworm Jim (USA).7z
+    - Earthworm Jim 2 (USA).7z
+    - Ecco Jr. (USA, Australia).7z
+    - Ecco the Dolphin (USA, Europe).7z
+    - Ecco - The Tides of Time (USA).7z
+    - Eternal Champions (USA).7z
+    - Ghouls 'n Ghosts (USA, Europe) (Rev A).7z
+    - Golden Axe (World) (v1.1).7z
+    - Golden Axe II (World).7z
+    - Golden Axe III (Japan).7z
+    - Gunstar Heroes (USA).7z
+    - Kid Chameleon (USA, Europe).7z
+    - Landstalker (USA).7z
+    - Light Crusader (USA).7z
+    - Mega Man - The Wily Wars (Europe).7z
+    - Mortal Kombat 3 (USA).7z
+    - Mortal Kombat II (World).7z
+    - Mortal Kombat (World) (v1.1).7z
+    - Ultimate Mortal Kombat 3 (USA).7z
+    - MUSHA - Metallic Uniframe Super Hybrid Armor (USA).7z
+    - NHL '94 (USA, Europe).7z
+    - NHL 95 (USA, Europe).7z
+    - NHL 96 (USA, Europe).7z
+    - NHL 97 (USA, Europe).7z
+    - NHL 98 (USA).7z
+    - OutRun (USA, Europe).7z
+    - OutRun 2019 (USA).7z
+    - Phantasy Star II (USA, Europe) (Rev A).7z
+    - Phantasy Star III - Generations of Doom (USA, Europe).7z
+    - Phantasy Star IV (USA).7z
+    - Powerball (USA).7z
+    - Rambo III (World) (v1.1).7z
+    - Ristar (USA, Europe).7z
+    - Road Rash (USA, Europe).7z
+    - Road Rash II (USA, Europe) (v1.2).7z
+    - Road Rash 3 (USA, Europe).7z
+    - Shining Force II (USA).7z
+    - Shining Force (USA).7z
+    - Shinobi III - Return of the Ninja Master (USA).7z
+    - Sonic 3D Blast (USA, Europe).7z
+    - Sonic & Knuckles (World).7z
+    - Sonic Spinball (USA).7z
+    - Sonic the Hedgehog 2 (World) (Rev A).7z
+    - Sonic the Hedgehog 3 (USA).7z
+    - Sonic the Hedgehog (USA, Europe).7z
+    - Space Harrier II (World).7z
+    - Street Fighter II' - Special Champion Edition (USA).7z
+    - Streets of Rage 2 (USA).7z
+    - Streets of Rage 3 (USA).7z
+    - Streets of Rage (World) (Rev A).7z
+    - Strider (USA, Europe).7z
+    - Super Fantasy Zone (Europe).7z
+    - Super Street Fighter II - The New Challengers (USA).7z
+    - Sword of Vermilion (USA, Europe).7z
+    - Teenage Mutant Ninja Turtles - The Hyperstone Heist (USA).7z
+    - Teenage Mutant Ninja Turtles - Tournament Fighters (USA).7z
+    - T2 - Terminator 2 - Judgment Day (USA, Europe).7z
+    - Terminator, The (USA).7z
+    - Revenge of Shinobi, The (USA, Europe) (Rev B).7z
+    - Shadow Dancer - The Secret of Shinobi (World).7z
+    - Shinobi III - Return of the Ninja Master (USA).7z
+    - Thunder Force II (USA, Europe).7z
+    - ToeJam & Earl in Panic on Funkotron (USA).7z
+    - ToeJam & Earl (World) (Rev A).7z
+    - Vectorman (USA, Europe).7z
+    - Virtua Fighter 2 (USA, Europe).7z
+    - Wonder Boy III - Monster Lair (Japan, Europe).7z
+    - Wonder Boy in Monster World (USA, Europe).7z
+    - World of Illusion Starring Mickey Mouse and Donald Duck (USA, Korea).7z

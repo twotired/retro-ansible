@@ -1,0 +1,11 @@
+apts:
+  - vim
+  - git
+  - jq
+  - make
+  - tmux
+  - screen
+  - ntp
+  - apt-transport-https
+  - ocl-icd-libopencl1
+

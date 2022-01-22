@@ -1,0 +1,37 @@
+  dest_dir: mastersystem
+  src_dir: ~/retro_games/roms/mastersystem/
+  roms:
+    - After Burner (World).7z
+    - Alex Kidd - High-Tech World (USA, Europe).7z
+    - Alex Kidd in Miracle World (USA, Europe) (v1.1).7z
+    - Alex Kidd in Shinobi World (USA, Europe).7z
+    - Alex Kidd - The Lost Stars (World).7z
+    - Asterix (Europe) (En,Fr) (v1.1).7z
+    - Bubble Bobble (Europe).7z
+    - California Games (USA, Europe).7z
+    - Double Dragon (World).7z
+    - Fantasy Zone II - The Tears of Opa-Opa (USA, Europe).7z
+    - Fantasy Zone (World) (v1.2).7z
+    - Golden Axe Warrior (USA, Europe).7z
+    - Kenseiden (USA, Europe).7z
+    - Land of Illusion Starring Mickey Mouse (Europe).7z
+    - Lucky Dime Caper Starring Donald Duck, The (Europe).7z
+    - Marble Madness (Europe).7z
+    - Operation Wolf (Europe).7z
+    - Out Run (World).7z
+    - Phantasy Star (USA, Europe) (v1.3).7z
+    - Prince of Persia (Europe).7z
+    - Psycho Fox (USA, Europe).7z
+    - Road Rash (Europe).7z
+    - R-Type (World).7z
+    - Shinobi (USA, Europe).7z
+    - Sonic Chaos (Europe).7z
+    - Sonic The Hedgehog 2 (Europe) (v1.1).7z
+    - Sonic The Hedgehog (USA, Europe).7z
+    - Space Harrier (USA, Europe).7z
+    - Streets of Rage (Europe).7z
+    - Streets of Rage II (Europe).7z
+    - Wonder Boy III - The Dragon's Trap (USA, Europe).7z
+    - Wonder Boy in Monster Land (USA, Europe).7z
+    - Wonder Boy in Monster World (Europe).7z
+    - Wonder Boy (USA, Europe).7z

@@ -1,0 +1,15 @@
+dest_dir: segacd/
+src_dir: ~/retro_games/roms/megacd/
+bios_src_dir: ~/retro_games/BIOS/
+roms:
+  - Batman Returns (USA).chd
+  - Ecco the Dolphin (USA).chd
+  - Final Fight CD (USA).chd
+  - Flink (USA).chd
+  - Keio Flying Squadron (USA).chd
+  - Sonic CD (USA).chd
+  - Soulstar (USA).chd
+  - Popful Mail (USA).chd
+  - Silpheed (USA).chd
+  - Snatcher (USA).chd
+  - Terminator, The (USA).chd

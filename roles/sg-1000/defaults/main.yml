@@ -1,0 +1,16 @@
+src_dir: ~/retro_games/roms/sg-1000/
+dest_dir: sg-1000/
+roms:
+  - Choplifter (Japan).zip
+  - Dokidoki Penguin Land (Japan).zip
+  - Flicky (Japan).zip
+  - Girl's Garden (Japan).zip
+  - Gulkave (Japan).zip
+  - H.E.R.O. (Japan).zip
+  - Hustle Chumy (Japan).zip
+  - Lode Runner (Japan, Europe).zip
+  - Pitfall II - The Lost Caverns (Japan).zip
+  - Sega-Galaga (Japan).zip
+  - Space Invaders (Japan).zip
+  - Star Jacker (Japan, Europe).zip
+  - Wonder Boy (Japan).zip

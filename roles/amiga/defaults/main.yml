@@ -1,0 +1,37 @@
+dest_dir: amiga
+src_dir: ~/retro_games/roms/amiga/
+bios_src_dir: ~/retro_games/BIOS/
+roms:
+  - AlienBreed_v2.3a_0998.lha
+  - AnotherWorld_v2.4_0425.lha
+  - BatmanTheMovie_v1.5_1Disk_0019.lha
+  - BatmanTheMovie_v1.5_2Disk_0006.lha
+  - BubbleBobble_v1.1_NTSC_1342.lha
+  - ChaosEngine_v1.2_AGA_1324.lha
+  - Civilization_v1.1_AGA_1633.lha
+  - Dune2_v1.1_1548.lha
+  - Dune_v3.0_1156.lha
+  - Elite_v2.0_1572.lha
+  - Flashback_v3.3_1163.lha
+  - Gods_v2.3.1_NTSC.lha
+  - IK+_v1.8_2063.lha
+  - ItCameFromTheDesert_v2.0_0014.lha
+  - JamesPond2_v2.0_AGA_1354.lha
+  - JimmyWhitesWhirlwindSnooker_v2.0_2466.lha
+  - Lemmings_v1.5_Files_NTSC_0901.lha
+  - Moonstone_v1.6_0360.lha
+  - Pang_v2.2_0929.lha
+  - RainbowIslands_v1.4.1_0012.lha
+  - SecretOfMonkeyIsland_v3.5_1625.lha
+  - SensibleSoccer_v1.2_1MB_0384.lha
+  - Speedball2_v1.0_2897.lha
+  - Stardust_v1.5_2102.lha
+  - SuperCars2_v1.0_0224.lha
+  - SuperCars_v1.3_2Disk_1527.lha
+  - Superfrog_v1.2_0035.lha
+  - Syndicate_v2.2_0739.lha
+  - Turrican2_v1.4_CDTV.lha
+  - Turrican_v2.0_0092.lha
+  - Wizkid_v1.2_1449.lha
+  - WormsDirectorsCut_v1.3_AGA_0605.lha
+  - Zool_v2.0_AGA_1675.lha

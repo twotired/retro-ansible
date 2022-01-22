@@ -1,0 +1,73 @@
+  dest_dir: nes
+  src_dir: ~/retro_games/roms/nes/
+  bios_src_dir: ~/retro_games/BIOS/
+  roms:
+    - 1942 (Japan, USA).zip
+    - Amagon (USA).zip
+    - Back to the Future (USA).zip
+    - Back to the Future Part II & III (USA).zip
+    - Balloon Fight (USA).zip
+    - Batman - The Video Game (USA).zip
+    - Batman Returns (USA).zip
+    - Battletoads (USA).zip
+    - Bubble Bobble (USA).zip
+    - Castlevania (USA).zip
+    - Castlevania II - Simon's Quest (USA).zip
+    - Castlevania III - Dracula's Curse (USA).zip
+    - Commando (USA).zip
+    - Contra (USA).zip
+    - Donkey Kong (World).zip
+    - Donkey Kong 3 (World).zip
+    - Donkey Kong Jr. (World).zip
+    - Double Dragon (USA).zip
+    - Double Dragon II - The Revenge (USA).zip
+    - Double Dragon III - The Sacred Stones (USA).zip
+    - Double Dribble (USA).zip
+    - Dr. Mario (Japan, USA).zip
+    - DuckTales (USA).zip
+    - Excitebike (Japan, USA).zip
+    - Final Fantasy (USA).zip
+    - Ghosts'n Goblins (USA).zip
+    - Goonies II, The (USA).zip
+    - Gradius (USA).zip
+    - Ice Climber (USA, Europe).zip
+    - Kid Icarus (USA, Europe).zip
+    - Kirby's Adventure (USA).zip
+    - Kung Fu (Japan, USA).zip
+    - Legend of Zelda, The (USA).zip
+    - Mario Bros. (World).zip
+    - Mega Man (USA).zip
+    - Mega Man 2 (USA).zip
+    - Mega Man 3 (USA).zip
+    - Mega Man 4 (USA).zip
+    - Mega Man 5 (USA).zip
+    - Mega Man 6 (USA).zip
+    - Metal Gear (USA).zip
+    - Metroid (USA).zip
+    - Mike Tyson's Punch-Out!! (Japan, USA).zip
+    - NES Open Tournament Golf (USA).zip
+    - Ninja Gaiden (USA).zip
+    - Ninja Gaiden II - The Dark Sword of Chaos (USA).zip
+    - Ninja Gaiden III - The Ancient Ship of Doom (USA).zip
+    - Operation Wolf (USA).zip
+    - Pac-Man (USA).zip
+    - Paperboy (USA).zip
+    - Rampage (USA).zip
+    - Shinobi (USA) (Unl).zip
+    - Solomon's Key (USA).zip
+    - Star Wars (USA).zip
+    - Star Wars - The Empire Strikes Back (USA).zip
+    - StarTropics (USA).zip
+    - Super C (USA).zip
+    - Super Mario Bros. (World).zip
+    - Super Mario Bros. 2 (USA).zip
+    - Super Mario Bros. 3 (USA).zip
+    - Tecmo Bowl (USA).zip
+    - Teenage Mutant Ninja Turtles (USA).zip
+    - Teenage Mutant Ninja Turtles II - The Arcade Game (USA).zip
+    - Teenage Mutant Ninja Turtles III - The Manhattan Project (USA).zip
+    - Tetris (USA).zip
+    - Top Gun - The Second Mission (USA).zip
+    - Town & Country Surf Designs - Wood & Water Rage (USA).zip
+    - Yoshi (USA).zip
+    - Zelda II - The Adventure of Link (USA).zip

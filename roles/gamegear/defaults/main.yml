@@ -1,0 +1,43 @@
+src_dir: ~/retro_games/roms/gamegear/
+dest_dir: gamegear/
+roms:
+  - Aladdin (USA, Europe).7z
+  - Baku Baku Animal (USA).7z
+  - Batman Returns (World).7z
+  - Bubble Bobble (USA, Europe).7z
+  - Bust-A-Move (USA, Europe).7z
+  - Castle of Illusion Starring Mickey Mouse (USA, Europe).7z
+  - Columns (USA, Europe).7z
+  - Double Dragon (USA, Europe).7z
+  - Dragon Crystal (USA, Europe).7z
+  - Ecco II - The Tides of Time (USA, Europe).7z
+  - Ecco the Dolphin (USA, Europe).7z
+  - Lemmings (World).7z
+  - Lucky Dime Caper, The (USA, Europe).7z
+  - Mega Man (USA, Europe).7z
+  - Mighty Morphin Power Rangers (USA, Europe).7z
+  - Power Strike II (Japan, Europe).7z
+  - Prince of Persia (USA, Europe).7z
+  - Ristar - The Shooting Star (World).7z
+  - Road Rash (USA).7z
+  - RoboCop versus The Terminator (USA, Europe).7z
+  - Shining Force II - The Sword of Hajya (USA, Europe).7z
+  - Shinobi (USA, Europe).7z
+  - Shinobi II - The Silent Fury (World).7z
+  - Simpsons, The - Bart vs. The Space Mutants (USA, Europe).7z
+  - Simpsons, The - Bart vs. The World (USA, Europe).7z
+  - Smurfs, The (Europe) (En,Fr,De,Es).7z
+  - Sonic Blast (World).7z
+  - Sonic Chaos (USA, Europe).7z
+  - Sonic Drift 2 (Japan, USA).7z
+  - Sonic Labyrinth (World).7z
+  - Sonic Spinball (USA, Europe).7z
+  - Sonic The Hedgehog (World) (v1.1).7z
+  - Sonic The Hedgehog - Triple Trouble (USA, Europe).7z
+  - Sonic The Hedgehog 2 (World).7z
+  - Streets of Rage (World).7z
+  - Streets of Rage II (World).7z
+  - Tails Adventures (World) (En,Ja).7z
+  - Tempo Jr. (World).7z
+  - Vampire - Master of Darkness (USA).7z
+  - Wonder Boy - The Dragon's Trap (Europe).7z

@@ -1,0 +1,33 @@
+  dest_dir: atari2600
+  src_dir: ~/retro_games/roms/atari2600/
+  roms:
+    - Adventure (USA).zip
+    - Asteroids (USA).zip
+    - Atlantis (USA).zip
+    - Berzerk (USA).zip
+    - Centipede (USA).zip
+    - Combat (USA).zip
+    - Defender (USA).zip
+    - Demon Attack (USA).zip
+    - Dig Dug (USA).zip
+    - Donkey Kong (USA).zip
+    - E.T. - The Extra-Terrestrial (USA).zip
+    - Fast Food (USA).zip
+    - Frogger (USA).zip
+    - Joust (USA).zip
+    - Jungle Hunt (USA).zip
+    - Mario Bros. (USA).zip
+    - Missile Command (USA).zip
+    - Ms. Pac-Man (USA).zip
+    - Pac-Man (Atari) (USA).zip
+    - Pitfall! - Pitfall Harry's Jungle Adventure (USA).zip
+    - Pole Position (USA).zip
+    - Q-bert (USA).zip
+    - Raiders of the Lost Ark (USA).zip
+    - River Raid (USA).zip
+    - Space Invaders (USA).zip
+    - Spy Hunter (USA).zip
+    - Star Wars - The Empire Strikes Back (USA).zip
+    - Super Breakout (USA).zip
+    - Warlords (USA).zip
+    - Yars' Revenge (USA).zip
