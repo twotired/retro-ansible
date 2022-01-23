@@ -1,0 +1,41 @@
+src_dir: ~/retro_games/roms/n64/
+dest_dir: n64
+roms:
+  - 007 - GoldenEye (USA).n64
+  - 1080 Snowboarding (Japan, USA) (En,Ja).n64
+  - Banjo-Kazooie (USA) (Rev A).n64
+  - Banjo-Tooie (USA).n64
+  - Beetle Adventure Racing! (USA) (En,Fr,De).n64
+  - Blast Corps (USA) (Rev A).n64
+  - Bomberman 64 (USA).n64
+  - Bust-A-Move '99 (USA).n64
+  - Bust-A-Move 2 - Arcade Edition (USA).n64
+  - Castlevania (USA) (Rev B).n64
+  - Castlevania - Legacy of Darkness (USA).n64
+  - Cruis'n USA (USA) (Rev B).n64
+  - Diddy Kong Racing (USA) (En,Fr) (Rev A).n64
+  - Donald Duck - Goin' Quackers (USA) (En,Fr,De,Es,It).n64
+  - Donkey Kong 64 (USA).n64
+  - Dr. Mario 64 (USA).n64
+  - F-Zero X (USA).n64
+  - Killer Instinct Gold (USA) (Rev B).n64
+  - Legend of Zelda, The - Majora's Mask (USA).n64
+  - Legend of Zelda, The - Ocarina of Time (USA) (Rev B).n64
+  - Mario Golf (USA).n64
+  - Mario Kart 64 (USA).n64
+  - Mario Party 3 (USA).n64
+  - Ogre Battle 64 - Person of Lordly Caliber (USA) (Rev A).n64
+  - Paper Mario (USA).n64
+  - Perfect Dark (USA) (Rev A).n64
+  - Pilotwings 64 (USA).n64
+  - Pokemon Stadium (USA) (Rev A).n64
+  - Pokemon Stadium 2 (USA).n64
+  - SpaceStation Silicon Valley (USA).n64
+  - Star Fox 64 (USA) (Rev A).n64
+  - Star Wars - Rogue Squadron (USA) (Rev A).n64
+  - Star Wars - Shadows of the Empire (USA) (Rev B).n64
+  - Super Mario 64 (USA).n64
+  - Super Smash Bros. (USA).n64
+  - WWF No Mercy (USA) (Rev A).n64
+  - Wave Race 64 (USA) (Rev A).n64
+  - Yoshi's Story (USA) (En,Ja).n64
