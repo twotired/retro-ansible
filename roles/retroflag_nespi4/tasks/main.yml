@@ -1,0 +1,42 @@
+- name: copy RetroFlag_pw_io.dtbo
+  become: yes
+  copy:
+    src: RetroFlag_pw_io.dtbo
+    dest: "{{ boot_mount_point + '/overlays/' }}"
+
+- name: enable RetroFlag_pw_io.dtbo
+  become: yes
+  lineinfile:
+    path: "{{ boot_mount_point + '/config.txt' }}"
+    line: 'dtoverlay=RetroFlag_pw_io.dtbo'
+
+- name: enable uart
+  become: yes
+  lineinfile:
+    path: "{{ boot_mount_point + '/config.txt' }}"
+    line: 'enable_uart=1'
+
+- name: force 1080p
+  become: yes
+  lineinfile:
+    path: "{{ boot_mount_point + '/config.txt' }}"
+    line: 'hdmi_ignore_edid=0xa5000080'
+
+- name: create data dir
+  become: yes
+  file:
+    path: "{{ root_mount_point + '/opt/RetroFlag/' }}"
+    state: directory
+
+- name: copy SafeShutdown.py
+  become: yes
+  copy:
+    src: SafeShutdown.py
+    dest: "{{ root_mount_point + '/opt/RetroFlag/' }}"
+
+- name: add SafeShutdown.py to /etc/rc.local
+  become: yes
+  ansible.builtin.lineinfile:
+    path: "{{ root_mount_point + '/etc/rc.local' }}"
+    insertbefore: '^exit 0$'
+    line: 'sudo python /opt/RetroFlag/SafeShutdown.py &'

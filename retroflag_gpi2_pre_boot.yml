@@ -1,0 +1,3 @@
+- hosts: localhost
+  roles:
+    - retroflag_gpi2_pre_boot

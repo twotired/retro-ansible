@@ -1,0 +1,82 @@
+- name: create data dir
+  file:
+    path: "{{ data_dir }}"
+    state: directory
+
+- name: download patch
+  get_url:
+    url: "{{ patch_url }}"
+    dest: "{{ data_dir }}"
+
+- name: remove old patch files
+  file:
+    path: "{{ data_dir + '/GPi_Case_patch'}}"
+    state: absent
+
+- name: determine patch file name
+  set_fact:
+    patch_filename: "{{ patch_url | basename }}"
+
+- name: unzip patch
+  ansible.builtin.unarchive:
+    src: "{{ data_dir + '/' + patch_filename }}"
+    dest: "{{ data_dir }}"
+
+- name: copy config.txt
+  ansible.builtin.copy:
+    src: "{{ data_dir + '/GPi_Case2_patch_retropie/patch_files/config.txt' }}"
+    dest: "{{ boot_mount_point }}"
+
+- name: copy config_lcd.txt
+  ansible.builtin.copy:
+    src: "{{ data_dir + '/GPi_Case2_patch_retropie/patch_files/config_lcd.txt' }}"
+    dest: "{{ boot_mount_point }}"
+
+- name: copy config_hdmi.txt
+  ansible.builtin.copy:
+    src: "{{ data_dir + '/GPi_Case2_patch_retropie/patch_files/config_hdmi.txt' }}"
+    dest: "{{ boot_mount_point }}"
+
+- name: copy alsa-base.conf
+  become: yes
+  ansible.builtin.copy:
+    src: alsa-base.conf
+    dest: "{{ root_mount_point + '/etc/modprobe.d/' }}"
+
+- name: create data dir
+  become: yes
+  file:
+    path: "{{ root_mount_point + '/opt/RetroFlag/' }}"
+    state: directory
+
+- name: copy SafeShutdown.py
+  become: yes
+  ansible.builtin.copy:
+    src: SafeShutdown.py
+    dest: "{{ root_mount_point + '/opt/RetroFlag/' }}"
+    mode: 0755
+
+- name: copy lcdfirst.sh
+  become: yes
+  ansible.builtin.copy:
+    src: lcdfirst.sh
+    dest: "{{ root_mount_point + '/opt/RetroFlag/' }}"
+    mode: 0755
+
+- name: copy
+  become: yes
+  ansible.builtin.copy:
+    src: lcdnext.sh
+    dest: "{{ root_mount_point + '/opt/RetroFlag/' }}"
+    mode: 0755
+
+- name: add SafeShutdown.py to /etc/rc.local
+  become: yes
+  lineinfile:
+    path: "{{ root_mount_point + '/etc/rc.local' }}"
+    insertbefore: '^exit 0$'
+    line: '{{ item }}'
+  with_items:
+    - 'sh /opt/RetroFlag/lcdfirst.sh &'
+    - 'sleep 1 &'
+    - 'sudo python /opt/RetroFlag/SafeShutdown.py &'

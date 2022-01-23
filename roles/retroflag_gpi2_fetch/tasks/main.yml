@@ -1,0 +1,24 @@
+- name: create data dir
+  file:
+    path: "data/gpi2/"
+    state: directory
+
+- name: create data dir
+  file:
+    path: "data/os_images/"
+    state: directory
+
+- name: determine image file name
+  set_fact:
+    image_filename: "{{ latest_url | basename }}"
+
+- name: check to see if image is already downloaded
+  stat:
+    path: "{{ 'data/os_images/' + image_filename }}"
+  register: local_image
+
+- name: download image if necessary
+  get_url:
+    url: "{{ latest_url }}"
+    dest: "{{ 'data/os_images/' + image_filename }}"
+  when: not local_image.stat.exists

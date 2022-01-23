@@ -22,6 +22,8 @@ ansible-playbook retroflag_gpi_seeding.yml
 ### flash
 
 gzip -dc data/os_images/retropie-buster-4.7.20-rpi2_3.img.gz | sudo dd of=/dev/mmcblk0 bs=64M
+or
+gzip -dc data/os_images/retropie-buster-4.7.1-rpi4_400.img.gz | sudo dd of=/dev/mmcblk0 bs=64M
 
 ### fetch latest image
 ansible-playbook retroflag_gpi2_fetch_image.yml
