@@ -1,0 +1,6 @@
+src_dir: ~/Downloads/MAME2003_Reference_Set_MAME0.78_ROMs_CHDs_Samples/roms
+dest_dir: mame-libretro/
+roms:
+  - btoads.zip
+  - primrag2.zip
+  - primrage.zip
