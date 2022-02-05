@@ -57,3 +57,33 @@
     path: "{{ root_mount_point + '/opt/retropie/configs/pcengine/retroarch.cfg' }}"
     regexp: '^audio_driver = '
     line: 'audio_driver = "alsathread"'
+
+- name: set theme to Genesis
+  lineinfile:
+    create: yes
+    path: "{{ root_mount_point + '/opt/retropie/configs/all/platforms.cfg' }}"
+    regexp: '^megadrive_theme'
+    line: 'megadrive_theme="genesis"'
+
+- name: set theme to Genesis part 2
+  lineinfile:
+    create: yes
+    path: "{{ root_mount_point + '/opt/retropie/configs/all/platforms.cfg' }}"
+    regexp: '^megadrive_platform'
+    line: 'megadrive_platform="genesis"'
+
+- name: set theme to tgfx16
+  lineinfile:
+    create: yes
+    path: "{{ root_mount_point + '/opt/retropie/configs/all/platforms.cfg' }}"
+    regexp: '^pcengine_theme'
+    line: 'pcengine_theme="tg16"'
+
+- name: fbneo disable patched roms (for hardcore achievements)
+  lineinfile:
+    create: no
+    path: "{{ root_mount_point + '/opt/retropie/configs/all/retroarch-core-options.cfg' }}"
+    regexp: '^fbneo-allow-patched-romsets'
+    line: 'fbneo-allow-patched-romsets = "disabled"'
+
+# TODO Bezel Project
