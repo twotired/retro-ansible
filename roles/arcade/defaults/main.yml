@@ -26,7 +26,6 @@ roms:
   - darius.zip
   - darwin.zip
   - dbz.zip
-  - dbz.zip
   - dbz2.zip
   - ddragon.zip
   - ddragon2.zip
@@ -39,7 +38,7 @@ roms:
   - dkong3.zip
   - dkongjr.zip
   - dstlk.zip
-  - dstlku.zip
+#  - dstlku.zip # US version not compatible with Retro Achievements
   - ecofghtr.zip
   - ffight.zip
   - frogger.zip
