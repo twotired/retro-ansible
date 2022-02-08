@@ -86,4 +86,11 @@
     regexp: '^fbneo-allow-patched-romsets'
     line: 'fbneo-allow-patched-romsets = "disabled"'
 
+- name: request TV Game Mode
+  lineinfile:
+    create: no
+    path: "{{ boot_mount_point + 'config.txt' }}"
+    regexp: '^edid_content_type'
+    line: 'edid_content_type=4'
+
 # TODO Bezel Project
