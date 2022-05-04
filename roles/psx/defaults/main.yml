@@ -2,45 +2,45 @@
   bios_src_dir: ~/retro_games/BIOS/
   dest_dir: psx
   roms:
-#    - Bishi Bashi Special (Europe).chd
+    - Bishi Bashi Special (Europe).chd
     - Castlevania - Symphony of the Night (USA).chd
-#    - Castlevania Chronicles (USA).chd
+    - Castlevania Chronicles (USA).chd
     - Crash Bandicoot (USA).chd
-#    - Crash Bandicoot - Warped (USA).chd
-#    - Crash Bandicoot 2 - Cortex Strikes Back (USA).chd
+    - Crash Bandicoot - Warped (USA).chd
+    - Crash Bandicoot 2 - Cortex Strikes Back (USA).chd
     - Dino Crisis (USA).chd
-#    - Dino Crisis 2 (USA).chd
-#    - Driver - You Are the Wheelman (USA).chd
-#    - Einhander (USA).chd
-#    - Final Fantasy Tactics (USA).chd
-#    - Final Fantasy VII (USA) (Disc 1).CD1
-#    - Final Fantasy VII (USA) (Disc 2).CD2
-#    - Final Fantasy VII (USA) (Disc 3).CD3
-#    - Final Fantasy VII (USA).m3u
-#    - Gex (USA).chd
+    - Dino Crisis 2 (USA).chd
+    - Driver - You Are the Wheelman (USA).chd
+    - Einhander (USA).chd
+    - Final Fantasy Tactics (USA).chd
+    - Final Fantasy VII (USA) (Disc 1).CD1
+    - Final Fantasy VII (USA) (Disc 2).CD2
+    - Final Fantasy VII (USA) (Disc 3).CD3
+    - Final Fantasy VII (USA).m3u
+    - Gex (USA).chd
     - Gran Turismo (USA).chd
-#    - Gran Turismo 2 (Europe) (Disc 1) (Arcade Mode).CD1
-#    - Gran Turismo 2 (Europe) (Disc 2) (Gran Turismo Mode).CD2
-#    - Gran Turismo 2 (USA) (Arcade Mode).m3u
-#    - Metal Gear Solid (USA) (Disc 1).CD1
-#    - Metal Gear Solid (USA) (Disc 2).CD2
-#    - Metal Gear Solid (USA).m3u
+    - Gran Turismo 2 (Europe) (Disc 1) (Arcade Mode).CD1
+    - Gran Turismo 2 (Europe) (Disc 2) (Gran Turismo Mode).CD2
+    - Gran Turismo 2 (USA) (Arcade Mode).m3u
+    - Metal Gear Solid (USA) (Disc 1).CD1
+    - Metal Gear Solid (USA) (Disc 2).CD2
+    - Metal Gear Solid (USA).m3u
     - Oddworld - Abe's Oddysee (USA).chd
-#    - PaRappa the Rapper (USA).chd
-#    - Resident Evil - Director's Cut (USA).chd
-#    - Resident Evil - Survivor (USA).chd
-#    - Resident Evil 2 (Europe) (Disc 1).CD1
-#    - Resident Evil 2 (Europe) (Disc 2).CD2
-#    - Resident Evil 2 (USA).m3u
-#    - Resident Evil 3 - Nemesis (USA).chd
-#    - Ridge Racer Type 4 (USA).chd
+    - PaRappa the Rapper (USA).chd
+    - Resident Evil - Director's Cut (USA).chd
+    - Resident Evil - Survivor (USA).chd
+    - Resident Evil 2 (Europe) (Disc 1).CD1
+    - Resident Evil 2 (Europe) (Disc 2).CD2
+    - Resident Evil 2 (USA).m3u
+    - Resident Evil 3 - Nemesis (USA).chd
+    - Ridge Racer Type 4 (USA).chd
     - Silent Hill (USA).chd
-#    - Spider-Man (USA).chd
-#    - Spyro the Dragon (USA).chd
-#    - Tekken 3 (USA).chd
-#    - Tenchu - Stealth Assassins (USA).chd
-#    - Time Crisis (USA).chd
+    - Spider-Man (USA).chd
+    - Spyro the Dragon (USA).chd
+    - Tekken 3 (USA).chd
+    - Tenchu - Stealth Assassins (USA).chd
+    - Time Crisis (USA).chd
     - Tomb Raider (USA).chd
     - Twisted Metal 2 (USA).chd
-#    - Vagrant Story (USA).chd
-#    - WipEout XL (USA).chd
+    - Vagrant Story (USA).chd
+    - WipEout XL (USA).chd

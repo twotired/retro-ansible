@@ -1,7 +1,7 @@
 - hosts: localhost
   roles:
     - atarilynx
-    - amiga
+#    - amiga
     - arcade
     - atari2600
     - gamegear
@@ -11,6 +11,7 @@
     - mastersystem
     - n64
     - nes
+    - mame
     - psx
     - segacd
     - sg-1000
